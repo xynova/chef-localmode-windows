@@ -1,0 +1,20 @@
+
+.DS_Store
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+.bash*
+.gitconfig
+.sudo_as_admin_successful
+.profile
+.viminfo
+*.retry
+
+*.ignore.*
