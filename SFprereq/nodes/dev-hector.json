@@ -1,0 +1,3311 @@
+{
+  "name": "dev-hector",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "179",
+        "model": "16130",
+        "stepping": "2",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 63 Stepping 2",
+        "mhz": "2397",
+        "cache_size": " KB"
+      },
+      "total": 4,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "A:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "A:",
+        "volume_name": null
+      },
+      "C:": {
+        "kb_size": 136363110,
+        "kb_available": 37710999,
+        "kb_used": 98652111,
+        "percent_used": 72,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 214746263,
+        "kb_available": 212335591,
+        "kb_used": 2410672,
+        "percent_used": 1,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": "Temporary Storage"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "9600",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows Server 2012 R2 Datacenter",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "DEV-HECTOR",
+        "current_time_zone": 660,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 3,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "12268792",
+        "free_space_in_paging_files": "2228224",
+        "free_virtual_memory": "14290492",
+        "install_date": "20161108091433.000000+660",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170307201257.486848+660",
+        "local_date_time": "20170308185319.783000+660",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows Server 2012 R2 Datacenter|C:\\Windows|\\Device\\Harddisk0\\Partition1",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 67,
+        "number_of_users": 1,
+        "operating_system_sku": 8,
+        "organization": "Microsoft Corporation",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 400,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 3,
+        "registered_user": "Employee",
+        "serial_number": "00253-50000-00000-AA419",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "2228224",
+        "status": "OK",
+        "suite_mask": 400,
+        "system_device": "\\Device\\HarddiskVolume1",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "16907828",
+        "total_visible_memory_size": "14679604",
+        "version": "6.3.9600",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows Server 2012 R2 Datacenter",
+      "release": "6.3.9600",
+      "version": "6.3.9600  Build 9600",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": false,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": 0,
+        "boot_option_on_watch_dog": 0,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "DEV-HECTOR",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 660,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "dev-hector",
+        "domain": "WORKGROUP",
+        "domain_role": 2,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Microsoft Corporation",
+        "model": "Virtual Machine",
+        "name": "DEV-HECTOR",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "[MS_VM_CERT/SHA1/9b80ca0d5dd061ec9da4e494f4c3fd1196270c22]",
+          "00000000000000000000000000000000",
+          "To be filed by MSFT"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "3932100000",
+        "pc_system_type": 1,
+        "pc_system_type_ex": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Employee",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "SQLServer",
+          "NT",
+          "Server_NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 1,
+        "total_physical_memory": "15031914496",
+        "user_name": null,
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "2228224kB",
+        "free": "2228224kB"
+      },
+      "total": "14679604kB",
+      "free": "12267488kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xd": {
+          "configuration": {
+            "ip_address": [
+              "10.0.0.11",
+              "fe80::78e7:c759:de73:e757"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000010] Microsoft Hyper-V Network Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "10.0.0.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Microsoft Hyper-V Network Adapter",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20380119141407.000000+660",
+            "dhcp_lease_obtained": "20170307201335.000000+660",
+            "dhcp_server": "168.63.129.16",
+            "dns_domain": "e0hmg2mzflsevpztif4p3tpdjh.px.internal.cloudapp.net",
+            "dns_domain_suffix_search_order": [
+              "e0hmg2mzflsevpztif4p3tpdjh.px.internal.cloudapp.net"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "dev-hector",
+            "dns_server_search_order": [
+              "168.63.129.16"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 10,
+            "interface_index": 13,
+            "ip_connection_metric": 5,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.240.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "00:0D:3A:D0:BB:16",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "netvsc",
+            "setting_id": "{AD8F7174-A2F1-497B-8EE4-4E3B2B92A812}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000010] Microsoft Hyper-V Network Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Microsoft Hyper-V Network Adapter",
+            "device_id": "10",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{AD8F7174-A2F1-497B-8EE4-4E3B2B92A812}",
+            "index": 10,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 13,
+            "last_error_code": null,
+            "mac_address": "00:0D:3A:D0:BB:16",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Microsoft Hyper-V Network Adapter",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "VMBUS\\{F8615163-DF3E-46C5-913F-F2D2F965ED0E}\\{000D3AD0-BB16-000D-3AD0-BB16000D3AD0}",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Microsoft Hyper-V Network Adapter",
+            "service_name": "netvsc",
+            "speed": "10000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DEV-HECTOR",
+            "time_of_last_reset": "20170307201257.486848+660"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "10.0.0.11": {
+              "prefixlen": "20",
+              "netmask": "255.255.240.0",
+              "broadcast": "10.0.15.255",
+              "family": "inet"
+            },
+            "fe80::78e7:c759:de73:e757": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "00:0D:3A:D0:BB:16": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "10.0.0.1": "12:34:56:78:9a:bc",
+            "10.0.15.255": "ff:ff:ff:ff:ff:ff",
+            "169.254.127.238": "12:34:56:78:9a:bc",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x12": {
+          "configuration": {
+            "ip_address": [
+              "169.254.127.238",
+              "fe80::6c6d:de48:93b1:7fee"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000016] Microsoft KM-TEST Loopback Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Npcap Loopback Adapter",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": "255.255.255.255",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "e0hmg2mzflsevpztif4p3tpdjh.px.internal.cloudapp.net"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "dev-hector",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 16,
+            "interface_index": 18,
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.0.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "02:00:4C:4F:4F:50",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "kmloop",
+            "setting_id": "{80424F7A-B196-48EB-B81B-673A0FCCC24B}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000016] Microsoft KM-TEST Loopback Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Microsoft KM-TEST Loopback Adapter",
+            "device_id": "16",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{80424F7A-B196-48EB-B81B-673A0FCCC24B}",
+            "index": 16,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 18,
+            "last_error_code": null,
+            "mac_address": "02:00:4C:4F:4F:50",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Npcap Loopback Adapter",
+            "net_connection_id": "Npcap Loopback Adapter",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Microsoft KM-TEST Loopback Adapter",
+            "service_name": "kmloop",
+            "speed": "1215752192",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DEV-HECTOR",
+            "time_of_last_reset": "20170307201257.486848+660"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "169.254.127.238": {
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "broadcast": "169.254.255.255",
+              "family": "inet"
+            },
+            "fe80::6c6d:de48:93b1:7fee": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "02:00:4C:4F:4F:50": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "169.254.255.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "10.0.0.1",
+      "default_interface": "0xd"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "10.0.0.11",
+    "macaddress": "00:0D:3A:D0:BB:16",
+    "ip6address": "fe80::6c6d:de48:93b1:7fee",
+    "os": "windows",
+    "os_version": "6.3.9600",
+    "platform": "windows",
+    "platform_version": "6.3.9600",
+    "platform_family": "windows",
+    "uptime_seconds": 81623,
+    "uptime": "22 hours 40 minutes 23 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "azure": {
+
+    },
+    "languages": {
+      "nodejs": {
+        "version": "0.12.2"
+      },
+      "perl": {
+        "version": "5.22.1",
+        "archname": "x86_64-msys-thread-multi"
+      },
+      "powershell": {
+        "version": "4.0",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "6.3.9600.17400",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "remoting_protocol_version": "2.2"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.3.1",
+        "release_date": "2016-04-26",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.17.44",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.17.44-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.22.1",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/ohai-8.22.1/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud": {
+      "public_ips": [
+        null
+      ],
+      "private_ips": [
+
+      ],
+      "vm_name": null,
+      "public_ipv4": null,
+      "public_fqdn": null,
+      "public_hostname": null,
+      "provider": "azure"
+    },
+    "cloud_v2": {
+      "provider": "azure"
+    },
+    "command": {
+
+    },
+    "hostname": "dev-hector",
+    "machinename": "DEV-HECTOR",
+    "fqdn": "dev-hector",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1488959607.875086,
+    "packages": {
+      "Git version 2.9.2": {
+        "version": "2.9.2",
+        "publisher": "The Git Development Community",
+        "installdate": "20161022"
+      },
+      "Critical Update for SQL Server 2016 MSVCRT Prerequisites (KB3194716) (64-bit)": {
+        "version": "13.0.1722.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161110"
+      },
+      "Critical Update for SQL Server 2016 MSVCRT Prerequisites (KB3210111) (64-bit)": {
+        "version": "13.0.1728.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170301"
+      },
+      "Microsoft Azure Compute Emulator - v2.9.5": {
+        "version": "2.9.7499.7",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 (64-bit)": {
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)": {
+        "version": "10.0.50908",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Office 365 ProPlus - en-us": {
+        "version": "16.0.7766.2060",
+        "publisher": "Microsoft Corporation"
+      },
+      "Skype for Business Basic 2016 - en-us": {
+        "version": "16.0.7766.2060",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft SQL Server 2014 Transact-SQL ScriptDom ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Build Tools - amd64": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "IIS Express Application Compatibility Database for x64": {
+
+      },
+      "SQL Server 2016 Database Engine Services": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170301"
+      },
+      "Sql Server Customer Experience Improvement Program": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Azure Service Fabric": {
+        "version": "5.4.164.9494",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170207"
+      },
+      "Microsoft SQL Server 2012 Native Client ": {
+        "version": "11.3.6518.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "IIS 10.0 Express": {
+        "version": "10.0.1736",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Common Files": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Office Developer Tools for Visual Studio 2015 - VSTO Design Time (x64)": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161109"
+      },
+      "Microsoft SQL Server 2014 Management Objects  (x64)": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 Management Objects  (x64)": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 SDK - x64": {
+        "version": "8.1.15116",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - amd64": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Universal CRT Tools x64": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Core 1.0.1 - SDK 1.0.0 Preview 2-003131 (x64)": {
+        "version": "1.0.0.3131",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ for Cross Platform Mobile Development (x64)": {
+        "version": "14.0.25401",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 DMF": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Active Directory Authentication Library for SQL Server": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Service Fabric SDK": {
+        "version": "2.4.164.9494",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170207"
+      },
+      "Microsoft Build Tools Language Resources 14.0 (amd64)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Performance Collection Tools - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft VSS Writer for SQL Server 2016": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170301"
+      },
+      "SQL Server 2016 Management Studio for Analysis Services": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual C++ 2015 x64 Debug Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK for Windows Store Apps DirectX x64 Remote": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Workflow Manager Tools 1.0 for Visual Studio": {
+        "version": "2.0.50408.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Web Platform Installer 5.0": {
+        "version": "5.0.50430.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Storyboarding (x64)": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Version Manager (x64) 1.0.0-rc1": {
+        "version": "1.0.11123.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit DirectX x64 Remote": {
+        "version": "8.100.25984",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Package Management Preview - x64": {
+        "version": "10.0.10514.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows App Certification Kit Native Components": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 VsGraphics Helper Dependencies": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE x64 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2008 Setup Support Files ": {
+        "version": "10.3.5500.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual Studio 2015 Diagnostic Tools - amd64": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Office Integration (x64)": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Build Tools Language Resources - amd64": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Database Engine Shared": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "SQL Server 2016 Connection Info": {
+        "version": "13.0.14500.10",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 SQL Diagnostics": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft SQL Server Compact 4.0 SP1 x64 ENU": {
+        "version": "4.0.8876.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Build Tools 14.0 (amd64)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Client Tools Extensions": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft SQL Server 2016 LocalDB ": {
+        "version": "13.0.1728.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170301"
+      },
+      "Visual Studio 2015 Prerequisites - ENU Language Pack": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 Setup (English)": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft .NET Core 1.0.1 - Host FX Resolver (x64)": {
+        "version": "4.0.20897",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 IntelliTrace (x64)": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Silverlight": {
+        "version": "5.1.50901.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161109"
+      },
+      "SQL Server 2016 XEvent": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Azure Libraries for .NET – v2.9": {
+        "version": "2.9.0818.110",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Office 16 Click-to-Run Licensing Component": {
+        "version": "16.0.7766.2047",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170302"
+      },
+      "Office 16 Click-to-Run Extensibility Component 64-bit Registration": {
+        "version": "16.0.7766.2047",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170302"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Client Tools": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Web Deploy 3.6": {
+        "version": "3.1238.1962",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SharePoint Client Components": {
+        "version": "16.0.3104.1200",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Authoring Tools - v2.9.5": {
+        "version": "2.9.7499.7",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft System CLR Types for SQL Server 2016": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit for Windows Store Apps DirectX x64 Remote": {
+        "version": "8.100.26936",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows XP Targeting with C++": {
+        "version": "11.0.51106",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Core 1.0.1 - Host (x64)": {
+        "version": "4.0.20897",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2012 Command Line Utilities ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK DirectX x64 Remote": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 x64 Hosting Support": {
+        "version": "14.0.23829",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows Phone Tools Finalizer": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 x64 Debug Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2014 Express LocalDB ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "IIS Express Application Compatibility Database for x86": {
+
+      },
+      "SQL Server 2016 Shared Management Objects Extensions": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "SQL Server 2016 Management Studio": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Storyboarding Language Pack (x64) - ENU": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 RsFx Driver": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Workflow Manager Client 1.0": {
+        "version": "2.0.50408.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET Core Module for IIS Express": {
+        "version": "1.0.1967",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 x64 Debug Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 T-SQL ScriptDom ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Shared Management Objects": {
+        "version": "13.0.14500.10",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "SQL Server 2016 Batch Parser": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft ODBC Driver 13 for SQL Server": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Office Developer Tools for Microsoft Visual Studio (x64) - ENU Language Pack": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual Studio 2015 Prerequisites": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "GlobalProtect": {
+        "version": "3.1.0",
+        "publisher": "Palo Alto Networks",
+        "installdate": "20170206"
+      },
+      "Microsoft Azure Service Fabric Tools for Visual Studio 2015": {
+        "version": "1.4.50124.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170207"
+      },
+      "Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2015 Update 3 CTP1 Office Integration Language Pack (x64) - ENU": {
+        "version": "14.98.25331",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Full text search": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft .NET Core 1.0.1 - Runtime (x64)": {
+        "version": "1.0.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Identity Extensions": {
+        "version": "2.0.1459.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft System CLR Types for SQL Server 2014": {
+        "version": "12.0.2402.29",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Performance Collection Tools": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 T-SQL Language Service ": {
+        "version": "13.0.14500.10",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Android SDK Tools": {
+        "version": "1.16",
+        "publisher": "Google Inc."
+      },
+      "Telerik Fiddler": {
+        "version": "4.6.20171.9220",
+        "publisher": "Telerik"
+      },
+      "Google Chrome": {
+        "version": "56.0.2924.87",
+        "publisher": "Google Inc.",
+        "installdate": "20161108"
+      },
+      "Microsoft Azure Storage Emulator - v4.5": {
+        "version": "4.5.6891.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Help Viewer 2.2": {
+        "version": "2.2.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016": {
+        "publisher": "Microsoft Corporation"
+      },
+      "Nmap 7.40": {
+        "version": "7.40"
+      },
+      "Npcap 0.78 r5": {
+        "version": "0.78 r5",
+        "publisher": "Nmap Project"
+      },
+      "Windows Mobile Extension SDK 10.0.14393.0 - ARM": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 IntelliTrace (x86)": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows App Certification Kit SupportedApiList x86": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Desktop Extension SDK Contracts": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense Desktop - en-us": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 X86 Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library PGO X86 Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Kits Configuration Installer": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum)": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Language Support - ENU Language Pack": {
+        "version": "14.0.23107.00",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft .NET Framework 4.6 Targeting Pack (ENU)": {
+        "version": "4.6.00127",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft LightSwitch v5.0 SDK": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 Native Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK Desktop Tools": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Runtime Intellisense Content - en-us": {
+        "version": "8.100.25984",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft NuGet - Visual Studio 2015": {
+        "version": "3.5.0.1484",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Portable Library Multi-Targeting Pack": {
+        "version": "14.0.25431.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Office Developer Tools for Visual Studio": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WCF Data Services Tools for Microsoft Visual Studio 2015": {
+        "version": "5.6.62175.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "CodedUITestUAP": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK for Windows Store Apps Headers Libs": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Connectivity Tools 10.0.14393.0 - Desktop x86": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 Policies ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Blend for Visual Studio SDK for Silverlight 5": {
+        "version": "3.0.40218.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK Desktop Headers Libs Metadata": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Windows Express Plus Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Team Extension SDK": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Application Insights Tools for Visual Studio 2015": {
+        "version": "7.0.20622.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2016 Management Objects ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Shared Components for Visual Studio 2015 - v1.8": {
+        "version": "1.8.40922.12",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Core Professional Plus Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Mobile Services Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows App Certification Kit x64": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinAppDeploy": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 x86 Hosting Support": {
+        "version": "14.0.23829",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Visual C++ for Mobile Development (Android support)": {
+        "version": "14.0.25401.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "MSBuild/NuGet Integration 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Professional 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Universal Windows App Development Tools": {
+        "version": "14.0.25527.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Multi-Device Hybrid Apps using C# - Templates - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows IoT Extension SDK": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Enterprise 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X86 Redist Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android (Visual Studio Extension)": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft VisualStudio JavaScript Project System": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Emulators - ENU": {
+        "version": "12.0.31010.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum) Interop Assemblies": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      " Tools for .Net 3.5": {
+        "version": "3.11.50727",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Devenv Resources": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Mobile App SDK V2.0": {
+        "version": "2.0.40201.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Core Libraries For Windows Phone": {
+        "version": "11.0.50727",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Compilers - ENU Resources": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK for Windows Store Apps": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.1 SDK": {
+        "version": "4.5.51641",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack": {
+        "version": "4.5.51651",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense IoT - Other Languages": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X64 Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X86 Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Core Tools 2015 - Visual Studio 2015": {
+        "version": "14.1.20907.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Management Studio Extensions": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Visual C++ Library ATL Source Package": {
+        "version": "14.0.23026",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone SDK 8.0 Assemblies for Visual Studio 2015": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense Xbox Live Extension SDK - Other Languages": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual Studio Extensions for Windows Library for JavaScript": {
+        "version": "2.1.25420.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Universal CRT Extension SDK": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android Guest Autiomation API": {
+        "version": "1.0.60404.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Prerequisites for SSDT ": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 XAML Application Timeline": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 X86 Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 X64 Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Build Tools - x86": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Diagnostic Tools - x86": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Exchange Web Services Managed API 2.1": {
+        "version": "15.0.847.30",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Templates Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library ATL X86 Package": {
+        "version": "14.0.23026",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Intellisense Lang Pack Mobile Extension SDK 10.0.14393.0": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 ARM Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.0 Emulation Host": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2014 Management Objects ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack (ENU)": {
+        "version": "4.5.51209",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library PGO Headers Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Apache Cordova": {
+        "version": "14.0.60527.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Entity Framework 6.1.3 Tools  for Visual Studio 2015 Update 1": {
+        "version": "14.0.41103.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense Desktop - Other Languages": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure PowerShell - September 2016": {
+        "version": "3.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6 Targeting Pack": {
+        "version": "4.6.00081",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Extension SDK 10.0.10586.0 - ARM": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT Appx Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Update for Microsoft Visual Studio 2015 (KB3095681)": {
+        "version": "14.0.23317",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows IP Over USB": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6.1 SDK": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio Professionald 2013 - ENU": {
+        "version": "12.0.30723",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Core Libraries": {
+        "version": "11.0.51106",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Universal CRT Redistributable": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Base Package": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64-arm Cross Compilers": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium ARM Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft.VisualStudio.Office365": {
+        "version": "1.6.2.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Project and Item Templates for Visual Studio Express 2015 for Windows 10 - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "LocalESPCui for en-us": {
+        "version": "8.59.29989",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Java SE Development Kit 7 Update 55": {
+        "version": "1.7.0.550",
+        "publisher": "Oracle",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT ARM Store Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 SDK - ENU": {
+        "version": "14.0.25407.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 SDK Language Pack - ENU": {
+        "version": "14.0.25407",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Language Suppor": {
+        "version": "14.0.23107.10",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ MSBuild Base Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Project and Item Templates for Visual Studio Professionald 2015 - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Xamarin": {
+        "version": "4.1.1.3",
+        "publisher": "Xamarin",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit for Windows Store Apps": {
+        "version": "8.59.29989",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET Core 1.0.1 Local Feed": {
+        "version": "1.0.20907.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Blend for Visual Studio SDK for .NET 4.5": {
+        "version": "3.0.40218.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Items Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure App Service Tools v2.9.5 - Visual Studio 2015": {
+        "version": "14.0.20810.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "CodedUITest81": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Office Developer Tools for Visual Studio ENU Language Pack": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library ATL Headers Package": {
+        "version": "14.0.23026",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Build Tools for Windows 10": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Chef Development Kit v1.1.16": {
+        "version": "1.1.16.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170307"
+      },
+      "Windows SDK for Windows Store Apps Contracts": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Open XML SDK 2.5 for Microsoft Office": {
+        "version": "2.5.5631",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 ARM Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Blend for Visual Studio SDK for Windows Phone 8.0": {
+        "version": "3.0.30924.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 SDK - Images": {
+        "version": "8.1.12358",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Windows Diagnostic Tools": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Add-in for Windows Phone": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Espc Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft VisualStudio JavaScript Language Service": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "PreEmptive Analytics Visual Studio Components": {
+        "version": "1.2.5134.1",
+        "publisher": "PreEmptive Solutions",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit - Windows 10.0.10586.212": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ Professional Templates Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Shell (Isolated) Resources": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows Phone SDK 8.0 Assemblies": {
+        "version": "12.0.31101",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET MVC 4 - Visual Studio 2015 - ENU": {
+        "version": "4.1.41102.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio 2015 - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MFC Items Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library MFC X64 Package": {
+        "version": "14.0.24213",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK AddOn": {
+        "version": "10.1.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6.1 Developer Pack": {
+        "version": "4.6.1055",
+        "publisher": "Microsoft Corporation"
+      },
+      "TypeScript Power Tool": {
+        "version": "1.8.34.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server 2014 T-SQL Language Service ": {
+        "version": "12.0.2000.8",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android Plugin": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual F# 4.0 VS": {
+        "version": "14.0.23413",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Extension SDK 10.0.10586.0 - x86": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET CoreRuntime For CoreCon": {
+        "version": "1.0.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium ARM Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK EULA": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporations",
+        "installdate": "20161022"
+      },
+      "Windows IoT Extension SDK Contracts": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft LightSwitch for Visual Studio 2015 v5.0 Tools": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Professional 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Profiling Tools": {
+        "version": "14.0.25123",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft LightSwitch for Visual Studio 2015 Core": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server Data Tools - enu (14.0.60519.0)": {
+        "version": "14.0.60519.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Items Resource Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Build Tools Language Resources 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 ARM Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MSBuild ARM Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 X64 Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT Redist Resource Package": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio Express 2015 for Windows": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library ATL ARM Package": {
+        "version": "14.0.23026",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Mobile Services Tools for Visual Studio - v1.4": {
+        "version": "1.4.30611.1601",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library PGO ARM Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit for Windows Store Apps DirectX x86 Remote": {
+        "version": "8.100.26936",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5 Multi-Targeting Pack": {
+        "version": "4.5.50710",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 SDK - ARM": {
+        "version": "8.1.15116",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Connectivity Tools 10.0.10586.0 - Desktop x86": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 Native Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Professional Plus Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Browser for SQL Server 2016": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Visual C++ Compiler/Tools Premium X86 ARM Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Community 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Optional MFC Support Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Advertising SDK for Windows Phone - ENU": {
+        "version": "6.2.960.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio Professional 2015": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 ARM Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library ATL X64 Package": {
+        "version": "14.0.23026",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library MFC X86 Package": {
+        "version": "14.0.24213",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows 8 Development Essentials": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WCF RIA Services V1.0 SP2": {
+        "version": "4.1.62812.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 IntelliTrace Front End": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 SDK - Desktop": {
+        "version": "8.1.15116",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "IDE Tools for Windows 10 - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Dotfuscator and Analytics Community Edition 5.22.0": {
+        "version": "5.22.0.3788",
+        "publisher": "PreEmptive Solutions",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Native SDK Tools": {
+        "version": "1.0.24208",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 x86-x64 Compilers": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Google Update Helper": {
+        "version": "1.3.32.7",
+        "publisher": "Google Inc.",
+        "installdate": "20161219"
+      },
+      "Python Tools 2.2.5 for Visual Studio 2015": {
+        "version": "2.2.40825.00",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Extension SDK 10.0.14393.0 - x86": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X64 Redist Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "LocalESPC": {
+        "version": "8.59.29989",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET Web Pages 2 - Visual Studio 2015 - ENU": {
+        "version": "4.1.41102.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft LightSwitch for Visual Studio 2015 v5.0 ToolsRes - ENU": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Preparation": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Premium 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Cloud Deployment Project for Microsoft Visual Studio 2015 - v2.9": {
+        "version": "2.9.40922.16",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 x86-x64 Compilers": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET and Web Tools 2015.1 - Visual Studio 2015": {
+        "version": "14.1.20907.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 Native Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Roslyn Language Services - x86": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Node.js": {
+        "version": "0.12.2",
+        "publisher": "Joyent, Inc. and other Node contributors",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack": {
+        "version": "4.5.50932",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ for Mobile Development (iOS support)": {
+        "version": "14.0.25401.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Universal General MIDI DLS Extension SDK": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Build Tools 14.0 (x86)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 32bit Compilers - ENU Resources": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Cloud Explorer - v1.0": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Shell (Isolated)": {
+        "version": "14.0.23107.10",
+        "publisher": "Microsoft Corporation"
+      },
+      "WinRT Intellisense IoT - en-us": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.51106": {
+        "version": "11.0.51106.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual Studio 2012 Verification SDK - enu": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Universal CRT Tools x86": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ CRT Headers Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense Xbox Live Extension SDK - en-us": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Connected Services": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Build Tools Language Resources - x86": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 x86 Debug Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT ARM OneCore For Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "AzureTools.Notifications": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Services Hub": {
+        "version": "1.0.25420.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Desktop Plus Resource Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual Studio 2015 Update 3 (KB3022398)": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation"
+      },
+      "Team Explorer for Microsoft Visual Studio 2015 Update 3.1": {
+        "version": "14.102.25619",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Design-Time": {
+        "version": "14.0.23829",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Azure Tools for Microsoft Visual Studio 2015 - v2.9": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ Compiler/Tools X86 Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft SQL Server Management Studio - 16.5": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Shell (Minimum) Resources": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows Desktop Extension SDK": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Core Package": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Uninstall Finalizer": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Office Developer Tools for Visual Studio 2015 Nuget Package": {
+        "version": "14.0.23725",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MFC Items Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 Core Libraries": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Project and Item Templates for Visual Studio Community 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Language Support": {
+        "version": "14.0.23107.00",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Azure Tools for Microsoft Visual Studio 2015 Core": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense PPI - Other Languages": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 XAML Visual Diagnostics for Windows Store": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK Modern Versioned Developer Tools": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Update for Microsoft Visual Studio 2015 (KB3165756)": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ for iOS Platform Mobile Development - ENU": {
+        "version": "14.0.25401",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Azure AD Authentication Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6.1 Targeting Pack": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 XAML Visual Diagnostics - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Universal CRT Headers Libraries and Sources": {
+        "version": "10.1.10586.212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual Studio Graphics Analyzer": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MSBuild X86 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Emulator 10.0.10586.0": {
+        "version": "10.1.10586.11",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Compilers For Windows Phone - ENU Resources": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6.1 Targeting Pack (ENU)": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Storage Connected Service": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 Base Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Office 16 Click-to-Run Extensibility Component": {
+        "version": "16.0.7766.2047",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170302"
+      },
+      "Office 16 Click-to-Run Localization Component": {
+        "version": "16.0.7668.2066",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170302"
+      },
+      "Visual C++ Compiler/Tools X64 Native Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 X64 Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.Net Web Frameworks 5.1 Security Update (KB2994397)": {
+        "version": "5.1.20821",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170216"
+      },
+      "Visual C++ Library CRT ARM Redist Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610": {
+        "version": "11.0.60610.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows SDK DirectX x86 Remote": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64-x86 Cross Compilers - ENU Resources": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library MFC Headers Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.1 RC Multi-Targeting Pack for Windows Store Apps": {
+        "version": "4.5.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 X64 Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone Emulator 8.0 Configurator": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit": {
+        "version": "8.100.26936",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Emulator Manager": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK for Windows Store Apps DirectX x86 Remote": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X86 Native Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Expression Blend SDK for .NET 4": {
+        "version": "2.0.20525.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170303"
+      },
+      "Visual C++ Library MFC Source Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android API 19 Platform": {
+        "version": "1.0.60404.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Test Tools for Microsoft Visual Studio 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT Source Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Mobile Services SDK V2.0": {
+        "version": "2.0.20908.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Emulator 10.0.14393.0": {
+        "version": "10.1.14393.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610": {
+        "version": "11.0.60610.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows Software Development Kit DirectX x86 Remote": {
+        "version": "8.100.25984",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.1 RC Multi-Targeting Pack for Windows Store Apps (ENU)": {
+        "version": "4.5.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ for iOS Platform Mobile Development": {
+        "version": "14.0.25401",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Emulator - Windows 10.0.14393.0": {
+        "version": "10.1.14393.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Update 3.1 Team Explorer Language Pack - ENU": {
+        "version": "14.102.25619",
+        "publisher": "Microsoft",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio 2013 - ENU": {
+        "version": "12.0.30723",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual Studio 2012 Verification SDK": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Base Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Update 3 Performance Debugger Web Views": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Quickstarts": {
+        "version": "1.6",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Compilers": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows SDK Redistributables": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Report Viewer Add-On for Visual Studio 2015": {
+        "version": "12.0.2402.20",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft SQL Server Data-Tier Application Framework (x86)": {
+        "version": "13.0.3485.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows SDK for Windows Store Apps Tools": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 Native Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015": {
+        "version": "14.0.23829",
+        "publisher": "Microsoft Corporation"
+      },
+      "vs_update3notification": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Windows Diagnostic Tools - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Management Studio for Reporting Services Localization": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual Studio 2015 XAML Designer - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 ARM Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 ARM Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio Professional 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Portable Library Multi-Targeting Pack Language Pack - enu": {
+        "version": "14.0.25420.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Behaviors SDK (Windows) for Visual Studio 2013": {
+        "version": "12.0.51210.80",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 ARM Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android Telemetry": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "VS Update core components": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android Manager Plugin": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ for Cross Platform Mobile Development": {
+        "version": "14.0.25401",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64-arm Cross Compilers - ENU Resources": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Agents for Visual Studio 2015 Preview - ENU": {
+        "version": "14.0.23102",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.6 SDK": {
+        "version": "4.6.00081",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Core 1.0.1 - VS 2015 Tooling Preview 2": {
+        "version": "1.0.20908.53",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio Enterprise 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "TypeScript Tools for Microsoft Visual Studio 2015": {
+        "version": "1.8.36.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Extension SDK 10.0.10240.0 - x86": {
+        "version": "10.0.10240.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Optional Desktop Support Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Blend for Visual Studio 2015 - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64 Native Compilers - ENU Resources": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Common Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Professional Plus Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Language Support Finalizer": {
+        "version": "14.0.23107.00",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows Phone 8.1 SDK - x86": {
+        "version": "8.1.15116",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Behaviors SDK (Windows Phone) for Visual Studio 2013": {
+        "version": "12.0.51210.80",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X86 Store Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library MFC MBCS Package": {
+        "version": "14.0.24213",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64-x86 Cross Compilers": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 XAML Application Timeline - ENU": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Install Finalizer": {
+        "version": "2.9.40923.2",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 Native Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X86 Native Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Professional Core Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio Professional 2013": {
+        "version": "12.0.30723",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 X86 Cross Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT Appx Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 x86 Debug Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft ASP.NET Web Frameworks and Tools - Visual Studio 2015 - ENU": {
+        "version": "5.2.40314.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Emulator for Android": {
+        "version": "1.1.622.2",
+        "publisher": "Microsoft Corporation"
+      },
+      "WinRT Intellisense PPI - en-us": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Agents for Visual Studio 2015 Preview": {
+        "version": "14.0.23102",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Optional XP Support Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense UAP - en-us": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4 Multi-Targeting Pack": {
+        "version": "4.0.30319",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Update for  (KB2504637)": {
+        "version": "1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows Team Extension SDK Contracts": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MSBuild Base Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Clang with Microsoft CodeGen": {
+        "version": "14.0.25516",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.0 Managed SDK Profiler (X86)": {
+        "version": "11.0.50727",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack (ENU)": {
+        "version": "4.5.50932",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 Add-in for Windows Phone - ENU Language Pack": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 32bit Compilers - ENU Resources": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Extension SDK 10.0.10240.0 - ARM": {
+        "version": "10.0.10240.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.0 Managed SDK Profiler (ARM)": {
+        "version": "11.0.50727",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Blend for Visual Studio 2015": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET CoreRuntime SDK": {
+        "version": "1.0.23819.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Native SDK": {
+        "version": "1.0.24208",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Premium 2015 - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x64) - 14.0.24215": {
+        "version": "14.0.24215.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 XAML Designer": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Windows 8.1 Templates Resource Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Clang with Microsoft CodeGen for Microsoft Visual Studio 2015": {
+        "version": "14.0.25516.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual C++ 2013 Compilers": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WCF Data Services 5.6.4 Runtime": {
+        "version": "5.6.62175.4",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Community 2015": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++  x64 Native Compilers": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Windows UAP Templates Resource Package": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X64 Store Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ for Cross Platform Mobile Development - ENU": {
+        "version": "14.0.25401",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft .NET Core 5.0 SDK": {
+        "version": "1.0.23902",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft LightSwitch for Visual Studio 2015 CoreRes - ENU": {
+        "version": "14.0.23025",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual F# 4.0 SDK": {
+        "version": "14.0.23413",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Silverlight 5 SDK": {
+        "version": "5.0.61118.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Debugger Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.24215": {
+        "version": "14.0.24215.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio Enterprise 2015 with Updates": {
+        "version": "14.0.25420.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2015 Test Tools Language Pack - ENU": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library PGO X64 Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Build Tools for Windows 10 - ENU": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 x86 Debug Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows 10 for Mobile Image - 10.0.14393.0": {
+        "version": "10.1.14393.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2013 Compilers - ENU Resources": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit - Windows 10.0.26624": {
+        "version": "10.0.26624",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.60610": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "SQL Server 2016 Management Studio for Analysis Services Localization": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Windows Phone 8.0 Emulation Images": {
+        "version": "12.0.31010",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Mobile Connectivity Tools 10.0.10240.0 - Desktop x86": {
+        "version": "10.0.12671",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT X86 OneCore For Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Professional Windows 8.1 Templates Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools X64 Base Resource Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Desktop Plus Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ MSBuild X64 Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Library CRT ARM Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Common Resource Package": {
+        "version": "14.0.25420",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio 2015": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161109"
+      },
+      "Windows Phone 8.1 Tools for Visual Studio 2013": {
+        "version": "12.0.40629",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Software Development Kit - Windows 10.0.14393.33": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual C++ Library CRT X64 OneCore For Desktop Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "IDE Tools for Windows 10": {
+        "version": "14.0.25527",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ Compiler/Tools Premium X64 X86 Cross Package": {
+        "version": "14.0.24210",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Azure Storage Tools - v5.0.0": {
+        "version": "5.0.0.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Visual C++ IDE Debugger Package": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Active Directory Authentication Library for SQL Server (x86)": {
+        "version": "13.0.1601.5",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "WinRT Intellisense UAP - Other Languages": {
+        "version": "10.1.14393.33",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.10.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170308"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio Tools for Applications 2015 Finalizer": {
+        "version": "14.0.23829",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "SQL Server 2016 Management Studio for Reporting Services": {
+        "version": "13.0.16000.28",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual Studio 2015 Devenv": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Windows Espc Resource Package": {
+        "version": "14.0.23107",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual C++ 2012 Compilers For Windows Phone": {
+        "version": "11.0.60610",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Azure Resource Manager Tools (VS 2015) - v2.9": {
+        "version": "2.9.40922.16",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      },
+      "Microsoft Visual Studio 2015 XAML Visual Diagnostics": {
+        "version": "14.0.25431",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161022"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "AUS Eastern Daylight Time"
+    },
+    "recipes": [
+
+    ],
+    "expanded_run_list": [
+
+    ],
+    "roles": [
+
+    ]
+  },
+  "run_list": [
+    "recipe[mybook]"
+  ]
+}

@@ -1,0 +1,7 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'firewall', '~> 2.5.4'
+cookbook 'windows', '~> 2.1.1'
+cookbook "windows-hardening", git: "https://github.com/dev-sec/chef-windows-hardening.git"
