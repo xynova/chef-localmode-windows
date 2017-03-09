@@ -1,4 +1,47 @@
 
+# Run **Chef Cookbook** standalone on Windows
+
+
+## Running on **DEV** machine
+
+### Prerequisites 
+- Install <a href="https://chocolatey.org/" target="_blank">chocolatey package manager</a>.
+- Install the following chocolatey packages:
+    - <a href="https://chocolatey.org/packages/Cmder" target="_blank">choco install cmder</a>: git,bash and cool commandline
+    - <a href="https://chocolatey.org/packages/chefdk" target="_blank">choco install chefdk</a>: Chef development kit
+
+### Running the Chef Cookbook for Dev 
+`cd` into the `chef` directory and then execute the `run.bat` command
+
+```
+$ cd chef
+$ run
+```
+
+
+
+
+## Running on **PROD** machine
+
+### Prerequisites 
+- Install <a href="https://chocolatey.org/" target="_blank">chocolatey package manager</a>.
+- Install the following chocolatey packages:
+    - <a href="https://chocolatey.org/packages/Cmder" target="_blank">choco install cmder</a>: git,bash and cool commandline
+    - <a href="https://chocolatey.org/packages/chef-client" target="_blank">choco install chef-client</a>: Chef Client 
+
+### Running the Chef Cookbook for Prod 
+`cd` into the `chef` directory and then execute the `run-client.bat` command
+
+```
+$ cd chef
+$ run-client
+```
+
+
+# Other topics
+
+
+
 ### Ways to create cookboks
 - berks cookbook cookbook_name
 - chef generate cookbook cookbooks/test
