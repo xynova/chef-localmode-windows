@@ -6,4 +6,4 @@ echo '* RUN CLIENT'
 echo '*********************'
 
 
-chef-client --local-mode --config client.rb -o mybook
+chef-client --local-mode --config client.rb -o mybook "$@"

@@ -1,3 +1,3 @@
 
 @echo off
-bash run-client.sh
+bash run-client.sh %*

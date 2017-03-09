@@ -18,6 +18,10 @@ $ cd chef
 $ run
 ```
 
+To run in debug mode append the options `-l debug` to the command. We can use `tee` to redirect the STDOUT to a log file.
+```
+$ run -l debug | tee logs.ignore.txt
+```
 
 
 
@@ -37,6 +41,10 @@ $ cd chef
 $ run-client
 ```
 
+To run in debug mode append the options `-l debug` to the command.  We can use `tee` to redirect the STDOUT to a log file.
+```
+$ run-client -l debug | tee logs.ignore.txt
+```
 
 # Other topics
 

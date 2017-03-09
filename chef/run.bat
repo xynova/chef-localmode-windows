@@ -1,3 +1,3 @@
 
 @echo off
-bash run.sh
+bash run.sh %*
