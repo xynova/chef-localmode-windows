@@ -1,0 +1,41 @@
+{
+  "name": "windows-hardening",
+  "description": "Hardneing cookbook for Windows 2012 R2",
+  "long_description": "Remediates critical issues identified by the DevSec Windows baseline",
+  "maintainer": "Joe Gardiner",
+  "maintainer_email": "joe@chef.io",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.7.1",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

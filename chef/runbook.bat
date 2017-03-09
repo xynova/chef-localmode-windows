@@ -1,1 +1,0 @@
-chef-client --local-mode --config client.rb -o mybook

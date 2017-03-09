@@ -1,3 +1,12 @@
+## project
+
+chef/**/local-mode-cache
+chef/**/nodes
+*.ignore.*
+
+
+
+## vim
 
 .DS_Store
 
@@ -17,10 +26,8 @@ Session.vim
 .viminfo
 *.retry
 
-*.ignore.*
 
-
-
+## chef
 .rake_test_cache
 
 ###
@@ -28,7 +35,6 @@ Session.vim
 ###
 .chef/*.pem
 .chef/encrypted_data_bag_secret
-
 
 .vagrant
 *~
@@ -51,3 +57,5 @@ bin/*
 Berksfile.lock
 .zero-knife.rb
 Policyfile.lock.json
+
+
