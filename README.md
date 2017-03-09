@@ -67,7 +67,7 @@ $ knife configure client -z C:/chef
 
 - Vendor cookbooks into the  
 ```
-$ pushd cookbooks/mybook && berks vendor c:/chef/cookbooks && popd
+$ pushd cookbooks\\mybook && berks vendor c:/chef/cookbooks && popd
 ```
 
 - Go to the `c:/chef/` directory and, initialize the node config and then set the current run_list for the node
