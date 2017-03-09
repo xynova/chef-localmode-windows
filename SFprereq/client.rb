@@ -1,1 +1,0 @@
-chef_repo_path = "C:\\Dev\\cheftest\\SFprereq\\.vendor"
