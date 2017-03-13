@@ -7,7 +7,11 @@ echo '* VENDOR COOKBOOKS'
 echo '*********************'
 
 
-pushd cookbooks/mybook && berks vendor ../vendored/cookbooks && popd
+pushd cookbooks/mybook 
+rm -Rf  ../vendored/cookbooks/mybook 
+berks vendor ../vendored/cookbooks 
+popd
+
 echo
 
 #:: runs a cookbok in solo mode in the current path
