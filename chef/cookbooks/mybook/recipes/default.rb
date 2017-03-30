@@ -7,4 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe 'windows-hardening::07_rdp'
+
+log 'Hello there'

@@ -1,5 +1,5 @@
 
 @echo off
 pushd %~dp0
-bash run.sh %*
+bash deploy.sh %*
 popd
