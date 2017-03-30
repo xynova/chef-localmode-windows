@@ -28,5 +28,4 @@ Open a new cmder session by searching `cmder` in the windows launch search. This
 
 
 - [Developing cookbook](docs/develop.md)
-- [Setting up knife](docs/setup_knife.md)
 - [Storing secrets in databags](docs/secrets.md)
