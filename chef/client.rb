@@ -11,5 +11,5 @@ data_bag_path [File.expand_path('data_bags', current_dir)]
 environment_path [File.expand_path('environments', current_dir)]
 node_path [File.expand_path('nodes', current_dir)]
 role_path [File.expand_path('roles', current_dir)]
+file_backup_path [File.expand_path('local_mode_cache/backup', current_dir)]
 file_cache_path [File.expand_path('local_mode_cache/cache', current_dir)]
-
